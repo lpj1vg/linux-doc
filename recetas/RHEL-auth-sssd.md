@@ -1,5 +1,4 @@
 # RHEL: Problema con autenticación
-[TOC]
 ## Referencias
 [Red Hat Customer Portal](https://access.redhat.com/solutions/3380341)
 
@@ -21,7 +20,6 @@ puppet agent --test --verbose
 > No es necesario volver a iniciar SSSD, se encarga puppet.
 
 ### RHEL 8
-
 ```bash
 sudo -i
 systemctl stop sssd && \
