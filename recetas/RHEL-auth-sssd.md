@@ -19,7 +19,7 @@ puppet agent --test --verbose
 ```
 > No es necesario volver a iniciar SSSD, se encarga puppet.
 
-### RHEL 8
+### RHEL 7
 ```bash
 sudo -i
 systemctl stop sssd && \
